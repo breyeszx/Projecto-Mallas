@@ -42,10 +42,10 @@ export function UINavbar() {
       </nav>
       <div className="hidden items-center gap-4 md:flex">
         <Link href="/login">
-        <Button variant="link" className="text-sm font-medium">
-          <IoLogInOutline />
-          Login
-        </Button>
+          <Button variant="link" className="text-sm font-medium">
+            <IoLogInOutline />
+            Login
+          </Button>
         </Link>
       </div>
       <Sheet>
@@ -92,10 +92,12 @@ export function UINavbar() {
               </Link>
             </nav>
             <div className="flex items-center justify-end gap-4">
-              <Button variant="link" className="text-sm font-medium">
-                <IoLogInOutline />
-                Login
-              </Button>
+              <Link href="/login">
+                <Button variant="link" className="text-sm font-medium">
+                  <IoLogInOutline />
+                  Login
+                </Button>
+              </Link>
             </div>
           </div>
         </SheetContent>
